@@ -7,7 +7,6 @@ import { Listener } from './funcToSimply.js';
 
 initialStateCircle();
 
-Listener(inputNumber, changeInputProgress, inputNumber.value);
-// inputNumber.addEventListener('change', () => changeInputProgress(inputNumber.value));
+inputNumber.addEventListener('change', () => changeInputProgress(inputNumber.value));
 toogleAnimate.addEventListener('change', () => setAnimated(toogleAnimate.checked));
 toogleHide.addEventListener('change', () => setHidden(toogleHide.checked));

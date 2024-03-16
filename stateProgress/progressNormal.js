@@ -8,11 +8,12 @@ export function initialStateCircle() {
   circle.style.strokeDashoffset = CIRCUMFERENCE;
 }
 
-export function changeInputProgress(value) {
-  if (value > 100) {
+export function changeInputProgress(val) {
+  if (val > 100) {
     inputNumber.value = 100;
+    console.log(inputNumber.value)
   }
-  if (value < 0) {
+  if (val < 0) {
     inputNumber.value = 0;
   }
   normal(inputNumber.value);
