@@ -3,7 +3,6 @@ import setHidden from './stateProgress/progressHidden.js';
 import { toogleHide, inputNumber, toogleAnimate } from './elementsOfControls.js';
 import { changeInputProgress } from './stateProgress/progressNormal.js';
 import { setAnimated } from './stateProgress/progressAnimated.js';
-import { Listener } from './funcToSimply.js';
 
 initialStateCircle();
 

@@ -11,7 +11,6 @@ export function initialStateCircle() {
 export function changeInputProgress(val) {
   if (val > 100) {
     inputNumber.value = 100;
-    console.log(inputNumber.value)
   }
   if (val < 0) {
     inputNumber.value = 0;
