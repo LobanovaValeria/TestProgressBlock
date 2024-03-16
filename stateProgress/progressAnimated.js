@@ -1,19 +1,22 @@
+import { circle } from '../elementsForChange.js';
+import { SPEEDANIMATE } from '../constants.js';
+
 let setIntervalAnimate;
 let initialDeg = 0;
 let isAnimating = false;
 
 function animate() {
   let startDeg = initialDeg;
-  let speedAnimate = 10;
+
   if (!isAnimating) {
     setIntervalAnimate = setInterval(() => {
       startDeg = startDeg + (2 % 360);
       circle.style.rotate = `${startDeg}deg`;
-    }, speedAnimate);
+    }, SPEEDANIMATE);
   }
 }
 
-function setAnimated(checkedAnimate) {
+export function setAnimated(checkedAnimate) {
   if (checkedAnimate && !isAnimating) {
     animate();
   } else {
