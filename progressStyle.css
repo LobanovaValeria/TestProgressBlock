@@ -8,7 +8,7 @@ input[type="number"]::-webkit-outer-spin-button {
     margin: 0;
 }
 
-.progress-container {
+.progressСontainer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,20 +23,20 @@ input[type="number"]::-webkit-outer-spin-button {
 
 }
 
-.progress-bar {
+.progressBar {
     width: 120px;
     height: 120px;
 
 }
 
-.progress-bar__cercle, .progress-bar__cercle-back {
+.progressBar__cercle, .progressBar__cercleBack {
 
     stroke-width: 12px;
     fill: transparent;
 
 }
 
-.progress-bar__cercle {
+.progressBar__cercle {
     stroke: #003EFF;
     transform-origin: center;
     transform: rotate(-90deg);
@@ -44,7 +44,7 @@ input[type="number"]::-webkit-outer-spin-button {
     stroke-dasharray: 0 0;
 }
 
-.progress-bar__cercle-back {
+.progressBar__cercleBack {
     stroke: #D7E0EC;
 }
 
@@ -126,7 +126,7 @@ label {
 }
 
 @media(orientation:landscape) {
-    .progress-container {
+    .progressContainer {
         flex-direction: row;
     }
 }
