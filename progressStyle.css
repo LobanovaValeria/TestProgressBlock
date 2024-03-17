@@ -37,7 +37,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 .progressBar__cercle {
-    stroke: #003EFF;
+
     transform-origin: center;
     transform: rotate(-90deg);
     transition: stroke-dasharray 0.3s transform ease-in-out 3.6s;
@@ -80,7 +80,7 @@ label {
     height: 0;
     appearance: 0;
     display: inline-block;
-    
+
 }
 
 .checkbox_inner {

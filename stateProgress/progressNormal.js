@@ -2,10 +2,12 @@ import { circle } from '../elementsForChange.js';
 import { inputNumber } from '../elementsOfControls.js';
 import { CIRCUMFERENCE } from '../constants.js';
 import { SPEEDOFNORMAL } from '../constants.js';
+import { COLORCIRCLE } from '../constants.js';
 
 export function initialStateCircle() {
   circle.style.strokeDasharray = `${CIRCUMFERENCE} ${CIRCUMFERENCE}`;
   circle.style.strokeDashoffset = CIRCUMFERENCE;
+  circle.style.stroke=COLORCIRCLE;
 }
 
 export function changeInputProgress(val) {
