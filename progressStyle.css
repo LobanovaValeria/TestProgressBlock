@@ -127,7 +127,7 @@ label {
 }
 
 @media(orientation:landscape) {
-    .progressContainer {
+    .progressСontainer {
         flex-direction: row;
     }
 }
